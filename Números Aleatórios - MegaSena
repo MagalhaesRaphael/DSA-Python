@@ -1,0 +1,9 @@
+import random
+i=1
+for i in range(1,10):
+    a = random.sample(range(60), 6)
+    a.sort()
+    print ("Teste de Números da MegaSena: ", a)
+    i = i +1
+else:
+    print ("\nMuito bem... \nEsta tudo dando certo!!!")
